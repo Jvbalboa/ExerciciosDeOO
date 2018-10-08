@@ -17,6 +17,9 @@ public class TratamentoDeExcecoes {
     public static void main(String[] args) {
         System.out.println("Divisão: " + Calculadora.Divisao(5, 0));
         Calculadora.vetor();
+        Arquivo.abrirArquivoComTry();
+        Arquivo.abrirArquivoComThrow();
+        AulaOO.chegarNaAula(20);
     }
     
 }
